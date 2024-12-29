@@ -4,4 +4,8 @@ new HEFPage([
 		new Asset(1,'VOO share',500.00,true),
 		new Asset(250,'USD Cash',1.00,true),
 	]),
+
+	new Pledger('Keido',[
+		new Asset(6,'WMT share',600.00,false),
+	]),
 ]);
